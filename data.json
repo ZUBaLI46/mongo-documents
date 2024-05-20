@@ -1,0 +1,93 @@
+{
+  "entities": {
+    "Product": {
+      "attributes": {
+        "Product_ID": "P001",
+        "Title": " Banana",
+        "Description": "Locally grown organic bananas",
+        "Unit_Price": 0.69,
+        "Unit_Weight": "0.2 kg",
+        "Units_in_Stock": 150,
+        "Expiry_Date": "2024-05-25",
+        "Discount_Availability": true,
+        "Availability_Status": "Available"
+      }
+    },
+    "Retailer": {
+      "attributes": {
+        "Retailer_ID": "R001",
+        "Title": "Kent Fresh Market",
+        "Location": "18 High St, Kent",
+        "Opening_Hours": "Mon-Sat: 8am-8pm, Sun: 10am-6pm",
+        "Special_Note": "Fresh produce sourced locally"
+      }
+    },
+    "Supplier": {
+      "attributes": {
+        "Supplier_ID": "S001",
+        "Title": "Kent Organic Farms",
+        "Contact_Info": "+1234567890, info@kentorganicfarms.com",
+        "Address": "123 Greenfield Rd, Kent",
+        "Turnover": 500000,
+        "Store_Location_Type": "Farm",
+        "No_of_Employees": 10,
+        "No_of_Stores": 1,
+        "Product_Categories": ["Fruits", "Vegetables"]
+      }
+    },
+    "LocalMarket": {
+      "attributes": {
+        "Market_ID": "M001",
+        "Title": "Kent Farmers' Market",
+        "Location": "Kent County Showground, Maidstone Rd, Kent",
+        "Operating_Days_and_Hours": "First Sunday of every month: 9am-1pm",
+        "Market_Overview": "A vibrant market featuring local produce",
+        "Market_Size": "Large"
+      }
+    },
+    "Category": {
+      "attributes": {
+        "Category_ID": "C001",
+        "Category_Name": "Fruits"
+      }
+    },
+    "ContactInformation": {
+      "attributes": {
+        "Contact_ID": "CI001",
+        "Phone_Number": "+1234567890",
+        "Email_Address": "info@kentfreshmarket.com"
+      }
+    },
+    "Address": {
+      "attributes": {
+        "Address_ID": "A001",
+        "Street_Address": "18 High St",
+        "City": "Kent",
+        "State": "England",
+        "Postal_Code": "ME15 6JF"
+      }
+    },
+    "Transaction": {
+      "attributes": {
+        "Transaction_ID": "T001",
+        "Product_ID": "P001",
+        "Retailer_ID": "R001",
+        "Supplier_ID": "S001",
+        "Market_ID": "M001",
+        "Transaction_Date": "2024-05-19",
+        "Quantity_Sold": 20,
+        "Total_Price": 13.80
+      }
+    },
+    "Employee": {
+      "attributes": {
+        "Employee_ID": "E001",
+        "Name": "Sarah Smith",
+        "Position": "Sales Associate",
+        "Hire_Date": "2023-12-10",
+        "Retailer_ID": "R001",
+        "Supplier_ID": "S001"
+      }
+    }
+  }
+}
